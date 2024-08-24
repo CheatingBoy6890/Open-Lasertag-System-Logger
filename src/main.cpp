@@ -173,6 +173,8 @@ void setup()
   tft.setRotation(1);
   tft.setTextFont(4);
   tft.fillScreen(0);
+  tft.print(F("Hello World"));
+  delay(1000);
   pinMode(BUTTON_RED, INPUT_PULLUP);
   pinMode(LED_RED, OUTPUT);
 
